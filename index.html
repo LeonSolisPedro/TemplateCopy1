@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="estilosHomeIndex.css" rel="stylesheet">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+
+
+  <section class="sectionpedrito">
+    <div class="mb-5 text-center">
+      <h1>Experiencias</h1>
+      <p>Descripción</p>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row g-0">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card correcion-card-index">
+              <img src="https://picsum.photos/200/300" class="card-img-top imagen-carousel-pedrito" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sectionpedrito">
+    <div class="mb-5 text-center">
+      <h1>Otras experiencias</h1>
+      <p>Descripción</p>
+    </div>
+    <div>
+      <div class="container">
+        <div class="rowwwwww owl-carousel owl-theme">
+
+          <div class="card correcion-card-index">
+            <img src="https://picsum.photos/200/300" class="card-img-top imagen-carousel-pedrito" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop: false,
+    margin: 0,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      992: {
+        items: 3
+      }
+    }
+  })
+  </script>
+</body>
+
+</html>
